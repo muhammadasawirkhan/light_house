@@ -1,0 +1,2390 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+  font-family: 'Bebas Neue', serif; 
+  /*border: 1px solid blue;*/
+}
+.starting-section {
+  height: 100vh; 
+  background:url('images/Mask_group.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: relative;
+  background-color:red;
+  
+}
+.hamburger{
+  position: absolute;
+  left:80vw;
+  color: #fff;
+}
+
+
+.logo img{
+  width: 6vw;
+  position:absolute;
+  top:16px;
+  left: 20px;
+
+  
+}
+.nav-bar{
+  display:flex;
+  gap: 30px;
+  position:absolute;
+  top: 5vh;
+  left: 40vw;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size:20px;
+  font-family: 'Quicksand', sans-serif;
+}
+.search{
+  position: relative;
+  left:9vw;
+}
+.search input{
+  background-color:#fff;
+  width: 15vw;
+  border: 1px solid #fff;
+  height: 4vh;
+  border-radius: 5px;
+  padding-top:2vh;
+}
+.search input:focus{
+  outline: none;
+}
+.material-symbols-outlined{
+  position: absolute;
+  right: 5px;
+  font-size: 2px;
+  font-weight: bold;
+}
+.main-heading h1{
+  position: absolute;
+  top:40vh;
+  left:175px;
+  font-size:50px;
+}
+
+.main-heading p{
+  position: absolute;
+  top:51vh;
+  left:175px;
+  font-size:15px;
+  color:#fff;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+.buttons{
+  position: absolute;
+  top: 64vh;
+  left:175px;
+}
+.buttons .explore{
+  width:12vw;
+  height:7vh;
+  border-radius:5px;
+  background-color: #000;
+  border:none;
+}
+.buttons .explore a{
+  text-decoration:none;
+  color:#fff;
+  font-family: 'Quicksand', sans-serif;
+}
+.buttons .create{
+  width:12vw;
+  height:7vh;
+  border-radius:5px;
+  border:none;
+  margin-left:2px;
+}
+.buttons .create a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.characters{
+  position: absolute;
+  left: 55vw;
+  top:15vh;
+}
+.characters img{
+  width: 40vw;
+}
+.starting-section-b{
+  display: flex;
+  height:23vh;
+  background-color:black;
+  background-size: cover;
+  position: relative;
+  padding-left: 4vw;
+  
+  
+}
+.starting-section-b .items{
+  background-color: #fff;
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 12vh;
+  left: 16vw;
+  border-radius: 2px;
+  padding:2vh 3.5vw 2vh 3.5vw;
+}
+.starting-section-b .items p{
+  text-align:center;
+}
+
+.starting-section-b .Floor_price{
+  background-color: #fff;
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 12vh;
+  left: 27vw;
+  border-radius: 2px;
+  padding-top:2.3vh;
+  
+}
+.starting-section-b .Floor_price p{
+  text-align: center;
+}
+
+.starting-section-b .total_volume{
+  background-color: #fff;
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 12vh;
+  left: 38vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .total_volume p{
+  text-align:center;
+}
+.starting-section-b .USD_volume{
+  background-color: #fff;
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 12vh;
+  left: 49vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .USD_volume{
+  text-align:center;
+}
+
+.starting-section-b .total_volume1{
+  background-color: rgb(255, 105, 140);
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 12vh;
+  left: 60vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+  
+}
+
+.starting-section-b .total_volume1 p{
+  text-align:center;
+  color: #fff;
+}
+
+.starting-section-b .USD_volume1{
+  background-color: rgb(255, 105, 140);
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 12vh;
+  left: 71vw;
+  border-radius:2px;
+  padding-top: 2vh;
+  
+}
+.starting-section-b .USD_volume1{
+  text-align:center;
+  color: #fff;
+}
+.stats-light p{
+  position:absolute;
+  top:7vh;
+  left:60vh;
+}
+.pasty-van{
+  position:absolute;
+  top:7vh;
+  left:136vh;
+}
+.NFTS{
+  display:flex;
+  gap:18px;
+  padding:20vh 8vw 15vh 8vw;
+  height: 90vh;
+  background-image: linear-gradient(to right,rgb(211, 198, 198), rgb(248, 241, 241));
+  position: relative;
+
+}
+.nfts-heading h1{
+  position: absolute;
+  top: 7vh;
+  left: 9vw;
+}
+.NFTS .card1{
+  display: block;
+  width: 20vw;
+  height:50vh;
+  background-color: #fff;
+  
+}
+.card1 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card1 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif; 
+
+}
+.card1 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw;  
+  font-family: 'Quicksand', sans-serif;
+}
+.card1 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card1 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card1 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 1vw;
+}
+
+.NFTS .card2{
+  display: block;
+  width: 20vw;
+  height:50vh;
+  background-color: #fff;
+  
+}
+.card2 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card2 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif; 
+}
+.card2 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw;  
+  font-family: 'Quicksand', sans-serif;
+}
+.card2 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card2 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card2 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 1vw;
+}
+
+.NFTS .card3{
+  display: block;
+  width: 20vw;
+  height:50vh;
+  background-color: #fff;
+   
+  
+}
+.card3 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card3 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif;
+}
+.card3 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw;
+  font-family: 'Quicksand', sans-serif;  
+  
+}
+.card3 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card3 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card3 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 1vw;
+}
+
+.NFTS .card4{
+  display: block;
+  width: 20vw;
+  height:50vh;
+  background-color: #fff;
+  
+}
+.card4 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card4 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif;
+}
+.card4 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw; 
+  font-family: 'Quicksand', sans-serif;   
+}
+.card4 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card4 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card4 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 7vw;
+}
+
+
+.NFT_partb{
+  
+  display:flex;
+}
+.heading{
+  margin-top:30vh;
+  margin-left: 4vw;
+  
+}
+.heading h1{
+  font-family: 'Bebas Neue Serif', serif;
+}
+.heading p{
+  font-family: 'Quicksand', sans-serif;
+}
+.pic img{
+  margin-top: 8vh;
+  margin-left:10vw ;
+}
+.heading button{
+  margin-top: 5vh;
+  width:10vw;
+  height:5vh;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(255, 105, 140);
+}
+.heading button a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+.nft_partc{
+  display: flex;
+  padding:20vh 8vw 15vh 8vw;
+  gap: 18px;
+  background-image: linear-gradient(to left,rgb(211, 198, 198), rgb(248, 241, 241));
+}
+.nft_partc .card5{
+  display: block;
+  width: 20vw;
+  height:60vh;
+  border: 1px solid #fff;
+  background-color:#fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  
+}
+.nft_partc .card5 h1{
+  font-size:large;
+  margin-left: 2vh;
+  font-family: 'Bebas Neue Serif', serif;
+  
+}
+.nft_partc .card5 img{
+  width:20vw;
+}
+.nft_partc .card5 p{
+  margin-left:1vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.rank_price{
+  display:flex;
+  margin-top:1vh;  
+}
+.nft_partc .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.nft_partc .card5 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.nft_partc a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue Serif', serif;
+}
+
+.price{
+  margin-left: 1vw;
+}
+
+.nft_partc .card6{
+  display: block;
+  width: 20vw;
+  height:60vh;
+  border: 1px solid #fff;
+  background-color:#fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  
+}
+.nft_partc .card6 h1{
+  font-size:large;
+  margin-left: 2vh;
+  font-family: 'Bebas Neue Serif', serif;
+  
+}
+.nft_partc .card6 img{
+  width:20vw;
+}
+.nft_partc .card6 p{
+  margin-left:1vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.rank_price{
+  display:flex;
+  margin-top:1vh;  
+}
+.nft_partc .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.nft_partc .card6 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.nft_partc a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue Serif', serif;
+}
+
+.price{
+  margin-left: 1vw;
+}
+
+.nft_partc .card7{
+  display: block;
+  width: 20vw;
+  height:60vh;
+  border: 1px solid #fff;
+  background-color:#fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  
+}
+.nft_partc .card7 h1{
+  font-size:large;
+  margin-left: 2vh;
+  font-family: 'Bebas Neue Serif', serif;
+  
+}
+.nft_partc .card7 img{
+  width:20vw;
+}
+.nft_partc .card7 p{
+  margin-left:1vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.rank_price{
+  display:flex;
+  margin-top:1vh;  
+}
+.nft_partc .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.nft_partc .card7 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.nft_partc a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue Serif', serif;
+}
+
+.price{
+  margin-left: 1vw;
+}
+
+.nft_partc .card8{
+  display: block;
+  width: 20vw;
+  height:60vh;
+  border: 1px solid #fff;
+  background-color:#fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  
+}
+.nft_partc .card8 h1{
+  font-size:large;
+  margin-left: 2vh;
+  font-family: 'Bebas Neue Serif', serif;
+  
+}
+.nft_partc .card8 img{
+  width:20vw;
+}
+.nft_partc .card8 p{
+  margin-left:1vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.rank_price{
+  display:flex;
+  margin-top:1vh;  
+}
+.nft_partc .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.nft_partc .card8 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.nft_partc a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue Serif', serif;
+}
+
+.price{
+  margin-left: 1vw;
+}
+
+.middle-section{
+  display: flex;
+  position: relative;
+  height: 30vh;
+  background-color: #fd4848;
+  
+}
+.middle-section .our-sellers{
+  width: 10vw;
+  height: 9vh;
+  background-color: #000;
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+  padding-top: 3vh;
+  
+}
+.middle-section .our-sellers p{
+  color: #fff;
+}
+.our-sellers-a{
+  width: 12vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 68px;
+  left: 400px;
+  text-align: center;
+  padding-top: 2vh;
+  display: flex;
+  
+
+}
+.our-sellers-a span{
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  left: 13px;
+  top: 8px;
+  
+}
+.our-sellers-a p{
+  color: #fff;
+  margin-top: 1vh;
+  position: absolute;
+  left: 35px;
+}
+.our-sellers-b{
+  width: 12vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 68px;
+  left: 575px;
+  padding: 1.5vh 1vw 1.5vh 1vw;
+
+}
+.our-sellers-b h1{
+  font-size: 25px;
+  color: #fff;
+}
+.our-sellers-c{
+  width: 12vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 68px;
+  left: 750px;
+
+}
+.our-sellers-c span{
+  position: absolute;
+  left: 4px;
+  color: #fff;
+  top: 12px;
+  font-size: xx-large;
+
+}
+.our-sellers-c p{
+  position: absolute;
+  left: 35px;
+  color: #fff;
+  top: 10px;
+  font-size: x-large;
+
+}
+.ending-section{
+  display:flex;
+  background-color: #eca1a1;
+  height: 50vh;
+  margin-top: 20vh;
+  position:relative;
+
+}
+.ending-section-logo{
+  position: absolute;
+  top:100px;
+  left:90px;
+}
+
+.ending-section-a{
+  display:block;
+  margin-top: 18vh;
+  margin-left:25vw;
+  line-height: 5vh;
+}
+.ending-section-a a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ending-section-b{
+  display:block;
+  margin-top: 18vh;
+  margin-left:5vw;
+  line-height: 5vh;
+}
+.ending-section-b a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ending-section-c{
+  display:block;
+  margin-top: 18vh;
+  margin-left:5vw;
+  line-height: 5vh;
+}
+.ending-section-c a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ending-section-d{
+  display:block;
+  margin-top: 18vh;
+  margin-left:5vw;
+  line-height: 5vh;
+}
+.ending-section-d a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ending-section-e{
+  display:block;
+  margin-top: 19vh;
+  height: 15vh;
+  margin-left:2vw;
+  line-height: 5vh;
+  border-left: 1px solid #fff;
+  
+}
+
+.ending-section-e .email {
+  margin-left:2vw;
+  margin-top: -1vh;
+}
+.email input{
+  width: 286px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  position:relative;
+}
+.email input::placeholder{
+  color: #fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.email span{
+  position: absolute;
+  right: 6vw;
+  color:#000;
+}
+.ending-section-e .terms{
+  margin-left: 2vw;
+  }
+.terms {
+  font-size: 10px;
+  color:#fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.footer{
+  display:flex;
+  flex-wrap: wrap;
+  background-color:#ea3f3f;
+  height: 130px;
+  position:relative;
+  
+  
+}
+.footer .copyright p{
+  color: #fff;
+  position: absolute;
+  top:9vh;
+  left:2vw;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer .privacy_policy p{
+  color: #fff;
+  position: absolute;
+  top:9vh;
+  left:40vw;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.footer .terms_and_conditions p{
+  color: #fff;
+  position: absolute;
+  top:9vh;
+  left:50vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .icons{
+  position: absolute;
+  display: flex;
+  gap: 1vw;
+  right: 4vw;
+  top: 7vh;
+}
+.hamburger {
+  position: absolute;
+  left: 95vw;
+  color: #fff;
+  top: 5vh;
+}
+@media (max-width:914px){
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*border: 1px solid blue;*/
+  }
+  .nav-bar {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 5vh;
+    left: 29vw;
+}
+.hamburger {
+  position: absolute;
+  left: 97vw;
+  color: #fff;
+  top: 5vh;
+}
+.main-heading h1 {
+  position: absolute;
+  top: 40vh;
+  left: 145px;
+  font-size: 50px;
+}
+.main-heading p br{
+  display: none;
+}
+.main-heading p {
+  position: absolute;
+  top: 51vh;
+  left: 145px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  width: 37vw;
+  text-align: justify;
+}
+.buttons {
+  position: absolute;
+  top: 72vh;
+  left: 146px;
+}
+.starting-section-b {
+  display: flex;
+  height: 23vh;
+  background-color: black;
+  background-size: cover;
+  position: relative;
+  padding-left: 4vw;
+  padding-bottom: 32vh;
+}
+.stats-light p {
+  position: absolute;
+  top: 7vh;
+  left: 48vh;
+}
+.pasty-van {
+  position: absolute;
+  top: 7vh;
+  left: 107vh;
+}
+.NFTS {
+  display: flex;
+  gap: 8px;
+  padding: 20vh 8vw 15vh 8vw;
+  height: 90vh;
+  background-image: linear-gradient(to right, rgb(211, 198, 198), rgb(248, 241, 241));
+  position: relative;
+}
+.NFT_partb {
+  display: flex;
+  padding: 10vh 5vw 20vh 5vw;
+}
+.heading {
+  margin-top: 26vh;
+  margin-left: 4vw;
+  width: 40vw;
+}
+
+.pic img {
+  width: 25vw;
+  margin: 33vh 2vw 2vh 7vw;
+}
+.heading {
+  margin-top: 26vh;
+  margin-left: 4vw;
+}
+.heading p br{
+  display: none;
+}
+.heading p{
+  text-align: justify;
+}
+.heading button {
+  margin-top: 5vh;
+  width: 12vw;
+  height: 6vh;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(255, 105, 140);
+}
+.middle-section .our-sellers {
+  width: 10vw;
+  height: 9vh;
+  background-color: #000;
+  position: absolute;
+  left: 0px;
+  top: 59px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+  padding-top: 3vh;
+}
+.our-sellers-a {
+  width: 13vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 55px;
+  left: 271px;
+  text-align: center;
+  padding-top: 2vh;
+  display: flex;
+}
+.our-sellers-b {
+  width: 12vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 55px;
+  left: 408px;
+  padding: 1.5vh 1vw 1.5vh 2vw;
+}
+.our-sellers-c {
+  width: 14vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 55px;
+  left: 531px;
+}
+.rank_price .price {
+  margin-left: 4vw;
+}
+.ending-section {
+  display: flex;
+  background-color: #eca1a1;
+  height: 58vh;
+  margin-top: 20vh;
+  position: relative;
+}
+.ending-section-logo {
+  position: absolute;
+  top: 78px;
+  left: 36px;
+}
+.ending-section-a {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 20vw;
+  line-height: 5vh;
+}
+.ending-section-b {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+}
+.ending-section-c {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 2vw;
+  line-height: 5vh;
+}
+.ending-section-d {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 2vw;
+  line-height: 5vh;
+}
+.email input {
+  width: 237px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+.terms br{
+  display: none;
+  content: '';
+}
+.terms {
+  font-size: 8px;
+  color: #fff;
+  font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  margin-right:2vw ;
+}
+.email span {
+  position: absolute;
+  right: 5vw;
+  color: #000;
+}
+.footer .privacy_policy p {
+  color: #fff;
+  position: absolute;
+  top: 9vh;
+  left: 38vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .terms_and_conditions p {
+  color: #fff;
+  position: absolute;
+  top: 9vh;
+  left: 52vw;
+  font-family: 'Quicksand', sans-serif;
+}
+}
+@media (max-width:768px){
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+   
+  }
+  .hamburger {
+    position: absolute;
+    left: 95vw;
+    color: #fff;
+    top: 6vh;
+}
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.nav-bar{
+  display:flex;
+  gap: 30px;
+  position:absolute;
+  top: 6vh;
+  left: 15vw;
+}
+.search input{
+  background-color:rgb(243, 127, 146);
+  width: 18vw;
+  border: 1px solid rgb(243, 127, 146);
+  height: 8vh;
+  border-radius: 5px;
+  padding-top:0vh;
+  margin-top: -1vh;
+}
+.search input:focus{
+  outline: none;
+}
+.material-symbols-outlined{
+  position: absolute;
+  right: 5px;
+  top: 0.5vh;
+  font-size: 2px;
+  font-weight: bold;
+}
+.main-heading h1{
+  position: absolute;
+  top:40vh;
+  left:125px;
+  font-size:50px;
+}
+
+.main-heading p{
+  position: absolute;
+  top:51vh;
+  left:125px;
+  font-size:15px;
+  color:#fff;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+.buttons{
+  position: absolute;
+  top: 64vh;
+  left:125px;
+}
+.buttons .explore{
+  width:14vw;
+  height:7vh;
+  border-radius:5px;
+  background-color: #000;
+  border:none;
+}
+.buttons .create{
+  width:14vw;
+  height:7vh;
+  border-radius:5px;
+  border:none;
+  margin-left:2px;
+}
+.characters {
+  display: inline;
+  position: absolute;
+  top: 33vh;
+  left: 58vw;
+}
+.starting-section-b{
+  display: flex;
+  height:33vh;
+  background-color:black;
+  background-size: cover;
+  position: relative;
+  padding-left: 4vw;
+  
+  
+}
+.starting-section-b .items{
+  background-color: #fff;
+  width: 12vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 10vw;
+  border-radius: 2px;
+  padding:2vh 3.5vw 2vh 3.5vw;
+}
+.starting-section-b .items p{
+  text-align:center;
+}
+
+.starting-section-b .Floor_price{
+  background-color: #fff;
+  width: 12vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 23vw;
+  border-radius: 2px;
+  padding-top:2.3vh;
+  
+}
+.starting-section-b .Floor_price p{
+  text-align: center;
+}
+
+.starting-section-b .total_volume{
+  background-color: #fff;
+  width: 12vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 36vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .total_volume p{
+  text-align:center;
+}
+.starting-section-b .USD_volume{
+  background-color: #fff;
+  width: 12vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 49vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .USD_volume{
+  text-align:center;
+}
+
+.starting-section-b .total_volume1{
+  background-color: rgb(255, 105, 140);
+  width: 12vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 62vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+  
+}
+
+.starting-section-b .total_volume1 p{
+  text-align:center;
+  color: #fff;
+}
+
+.starting-section-b .USD_volume1{
+  background-color: rgb(255, 105, 140);
+  width: 12vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 75vw;
+  border-radius:2px;
+  padding-top: 2vh;
+  
+}
+.starting-section-b .USD_volume1{
+  text-align:center;
+  color: #fff;
+}
+.stats-light p{
+  position:absolute;
+  top:7vh;
+  left:42vh;
+}
+
+.pasty-van{
+  position:absolute;
+  top:7vh;
+  left:68vw;
+}
+.NFTS{
+  display:flex;
+  gap:18px;
+  padding:20vh 8vw 15vh 8vw;
+  height: 100vh;
+  background-image: linear-gradient(to right,rgb(211, 198, 198), rgb(248, 241, 241));
+  position: relative;
+}
+.nfts-heading h1{
+  position: absolute;
+  top: 7vh;
+  left: 5vw;
+}
+.NFTS .card1{
+  display: block;
+  width: 20vw;
+  height:54vh;
+  background-color: #fff;
+  position: absolute;
+  left: 5vw;
+  
+}
+.card1 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card1 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif; 
+
+}
+.card1 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw;  
+  font-family: 'Quicksand', sans-serif;
+}
+.card1 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card1 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card1 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 1vw;
+}
+
+.NFTS .card2{
+  display: block;
+  width: 20vw;
+  height:54vh;
+  background-color: #fff;
+  position: absolute;
+  left: 27vw;
+  
+}
+.card2 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card2 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif; 
+}
+.card2 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw;  
+  font-family: 'Quicksand', sans-serif;
+}
+.card2 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card2 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card2 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 1vw;
+}
+
+.NFTS .card3{
+  display: block;
+  width: 20vw;
+  height:54vh;
+  position: absolute;
+  left: 49vw;
+  background-color: #fff;
+   
+  
+}
+.card3 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card3 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif;
+}
+.card3 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw;
+  font-family: 'Quicksand', sans-serif;  
+  
+}
+.card3 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card3 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card3 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 1vw;
+}
+
+.NFTS .card4{
+  display: block;
+  width: 20vw;
+  height:54vh;
+  position: absolute;
+  left: 71vw;
+  background-color: #fff;
+  
+}
+.card4 .img img{
+  width:20vw;
+  height:30vh;
+}
+.card4 h2{
+  font-size: 20px;
+  position:absolute;
+  margin-left: 1vw;
+  font-family: 'Bebas Neue', serif;
+}
+.card4 .rank_price{
+  display:flex;
+  margin-top:4vh;
+  margin-left:1vw; 
+  font-family: 'Quicksand', sans-serif;   
+}
+.card4 .btn{
+  padding:2vh 1vw 2vh 1vw;
+}
+.card4 button{
+  width: 18vw;
+  height:6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius:5px ;
+  
+}
+.card4 a{
+  font-size: large;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', serif; 
+}
+
+.rank_price .price{
+  margin-left: 7vw;
+}
+.NFT_partb{
+  
+  display:block;
+  text-align: center;
+  padding-bottom: 4vh;
+}
+.heading {
+  margin-top: 26vh;
+  margin-left: 26vw;
+}
+.heading button{
+  margin-top: 5vh;
+  width:14vw;
+  height:7vh;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(255, 105, 140);
+}
+.buttons{
+  
+  position: absolute;
+  top: 77vh;
+  left: 125px;
+
+}
+.pic img{
+  
+  width: 43vw;
+  margin: 5vh 2vw 2vh 2vw;
+}
+.nft_partc{
+  display: block;
+}
+.nft_partc .card5 {
+  display: block;
+  width: 36vw;
+  height: 79vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-left: 22vw;
+}
+.nft_partc .card5 img {
+  width: 36vw;
+}
+.nft_partc .card5 button {
+  width: 18vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 7vw;
+}
+.nft_partc .card6 {
+  display: block;
+  width: 36vw;
+  height: 79vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-left: 22vw;
+}
+.nft_partc .card6 img {
+  width: 36vw;
+}
+.nft_partc .card6 button {
+  width: 18vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 7vw;
+}
+.nft_partc .card7 {
+  display: block;
+  width: 36vw;
+  height: 79vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-left: 22vw;
+}
+.nft_partc .card7 img {
+  width: 36vw;
+}
+.nft_partc .card7 button {
+  width: 18vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 7vw;
+}
+
+.nft_partc .card8 {
+  display: block;
+  width: 36vw;
+  height: 79vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-left: 22vw;
+}
+.nft_partc .card8 img {
+  width: 36vw;
+}
+.nft_partc .card8 button {
+  width: 18vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 7vw;
+}
+.middle-section .our-sellers {
+  width: 13vw;
+  height: 9vh;
+  background-color: #000;
+  position: absolute;
+  left: 0px;
+  top: 52px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+  padding-top: 2vh;
+  padding-right: 1vw;
+}
+.our-sellers-a {
+  width: 15vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 51px;
+  left: 265px;
+  text-align: center;
+  padding-top: 2vh;
+  display: flex;
+}
+.our-sellers-b {
+  width: 15vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 51px;
+  left: 390px;
+  padding: 1.5vh 1vw 1.5vh 1vw;
+}
+.our-sellers-c {
+  width: 16vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 51px;
+  left: 515px;
+  
+}
+.ending-section{
+  display:flex;
+  background-color: #eca1a1;
+  height: 50vh;
+  margin-top: 20vh;
+  position:relative;
+
+}
+.ending-section-logo{
+  position: absolute;
+  top:20px;
+  left:10px;
+  display: none;
+}
+.ending-section-a {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 5vw;
+  line-height: 5vh;
+}
+.ending-section-b {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+}
+.ending-section-c {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+}
+.ending-section-d {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+}
+.email input {
+  width: 237px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+.terms {
+  line-height: 1.4; /* Slightly tighter spacing on smaller screens */
+  word-wrap: break-word; /* Prevents overflow */
+  padding-right: 1vw;
+}
+.terms br{
+  display: inline;
+  content: '';
+}
+.email span {
+  position: absolute;
+  right: 6vw;
+  color: #000;
+  top: 18vh;
+}
+.footer {
+  display: flex
+;
+  flex-wrap: wrap;
+  background-color: #ea3f3f;
+  height: 195px;
+  position: relative;
+}
+
+
+.footer .copyright p {
+  color: #fff;
+  position: absolute;
+  top: 9vh;
+  left: 4vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .privacy_policy p {
+  color: #fff;
+  position: absolute;
+  top: 9vh;
+  left: 47vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .terms_and_conditions p {
+  color: #fff;
+  position: absolute;
+  top: 9vh;
+  left: 70vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .icons {
+  position: absolute;
+  display: flex;
+  gap: 1vw;
+  right: 36vw;
+  top: 20vh;
+}
+}
+@media (max-width: 375px) {
+  .nav-bar {
+    display: none; /* Hide links initially */
+    flex-direction: column; /* Stack links vertically */
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #444;
+    width: 72%;
+    text-align: center;
+    padding: 10px 0;
+    height: 52vh;
+  }
+  .material-symbols-outlined {
+    position: absolute;
+    left: 50px;
+    font-size: 2px;
+    font-weight: bold;
+}
+  .search input {
+    background-color: rgb(243, 127, 146);
+    width: 44vw;
+    border: 1px solid rgb(243, 127, 146);
+    height: 8vh;
+    border-radius: 5px;
+    padding-top: 0vh;
+    margin-top: -1vh;
+    position: absolute;
+    left: 4vw;
+}
+
+  .nav-bar.active {
+    display: flex; /* Show links when toggled */
+    z-index: 1;
+  }
+  .logo img {
+    width: 16vw;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+
+  .hamburger {
+     /* Show hamburger icon */
+    position: absolute;
+    top: 4vh;
+    left:84vw;
+    font-size: xx-large;
+  }
+  .material-symbols-outlined{
+    position: absolute;
+    left: 60px;
+    font-size: 2px;
+    font-weight: bold;
+  }
+  .main-heading h1 {
+    position: absolute;
+    top: 40vh;
+    left: 45px;
+    font-size: 42px;
+}
+.main-heading p {
+  position: absolute;
+  top: 50vh;
+  width: 96vw;
+  left: 1px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+.buttons {
+  position: absolute;
+  top: 72vh;
+  left: 125px;
+}
+.buttons .explore {
+  width: 26vw;
+  height: 7vh;
+  border-radius: 5px;
+  background-color: #000;
+  border: none;
+  position: absolute;
+  left: -10vw;
+}
+.buttons .create {
+  width: 26vw;
+  height: 7vh;
+  border-radius: 5px;
+  border: none;
+  margin-left: 2px;
+  position: absolute;
+  left: 17vw;
+}
+.characters{
+  display: none;
+}
+.starting-section-b {
+  display: block;
+  height: 112vh;
+  background-color: black;
+  background-size: cover;
+  position: relative;
+  padding-left: 4vw;
+}
+.starting-section-b .items {
+  background-color: #fff;
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 12vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding: 2vh 3.5vw 2vh 3.5vw;
+}
+.starting-section-b .Floor_price {
+  background-color: #fff;
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 28vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding-top: 2.3vh;
+}
+.starting-section-b .total_volume {
+  background-color: #fff;
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 43vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .USD_volume {
+  background-color: #fff;
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 57vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .total_volume1 {
+  background-color: rgb(255, 105, 140);
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 76vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .total_volume1 {
+  background-color: rgb(255, 105, 140);
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 76vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.starting-section-b .USD_volume1 {
+  background-color: rgb(255, 105, 140);
+  width: 39vw;
+  height: 12vh;
+  position: absolute;
+  top: 90vh;
+  left: 30vw;
+  border-radius: 2px;
+  padding-top: 2vh;
+}
+.stats-light p {
+  position: absolute;
+  top: 7vh;
+  left: 29vw;
+}
+.pasty-van {
+  position: absolute;
+  top: 72vh;
+  left: 34vw;
+}
+.nfts-heading h1 {
+  position: absolute;
+  top: 7vh;
+  left: 29vw;
+}
+.NFTS {
+  display: block;
+  padding: 20vh 8vw 15vh 8vw;
+  height: 255vh;
+  background-image: linear-gradient(to right, rgb(211, 198, 198), rgb(248, 241, 241));
+  position: relative;
+}
+.NFTS {
+  display: block;
+  padding: 20vh 8vw 15vh 8vw;
+  height: 255vh;
+  background-image: linear-gradient(to right, rgb(211, 198, 198), rgb(248, 241, 241));
+  position: relative;
+}
+.NFTS .card1 {
+  display: block;
+  width: 77vw;
+  height: 54vh;
+  background-color: #fff;
+  position: absolute;
+  left: 12vw;
+}
+.card1 .img img {
+  width: 77vw;
+  height: 30vh;
+}
+.rank_price .price {
+  margin-left: 33vw;
+}
+.card1 button {
+  width: 34vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 21vw;
+}
+.NFTS .card2 {
+  display: block;
+  width: 77vw;
+  height: 54vh;
+  background-color: #fff;
+  position: absolute;
+  left: 12vw;
+  top: 75vh;
+}
+.card2 .img img {
+  width: 77vw;
+  height: 30vh;
+}
+.card2 button {
+  width: 35vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 20vw;
+}
+.NFTS .card3 {
+  display: block;
+  width: 77vw;
+  height: 54vh;
+  position: absolute;
+  left: 12vw;
+  background-color: #fff;
+  top: 131vh;
+}
+.card3 .img img {
+  width: 77vw;
+  height: 30vh;
+}
+.card3 button {
+  width: 38vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 19vw;
+}
+.NFTS .card4 {
+  display: block;
+  width: 77vw;
+  height: 54vh;
+  position: absolute;
+  left: 12vw;
+  background-color: #fff;
+  top: 189vh;
+}
+.card4 .img img {
+  width: 77vw;
+  height: 30vh;
+}
+.card4 button {
+  width: 39vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 18vw;
+
+}
+.heading p {
+  font-family: 'Quicksand', sans-serif;
+  height: 58vh;
+  width: 73vw;
+  margin-left: -15vw;
+}
+.pic img {
+  margin-top: 6vh;
+  margin-left: 5vw;
+  width: 60vw;
+}
+.heading button {
+  margin-top: 5vh;
+  width: 30vw;
+  height: 7vh;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 105, 140);
+}
+.nft_partc .card5 {
+  display: block;
+  width: 66vw;
+  height: 64vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-left: 9vw;
+}
+.nft_partc .card5 img {
+  width: 66vw;
+}
+.nft_partc .card5 h1 {
+  font-size: large;
+  margin-left: 1vh;
+  font-family: 'Bebas Neue Serif', serif;
+}
+.nft_partc .card5 p {
+  margin-left: 1vw;
+  font-family: 'Quicksand', sans-serif;
+  width: 17vw;
+}
+.nft_partc .card5 button {
+  width: 29vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 18vw;
+}
+.nft_partc .card6 {
+  display: block;
+  width: 66vw;
+  height: 64vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-left: 9vw;
+}
+.nft_partc .card6 img {
+  width: 66vw;
+}
+.nft_partc .card6 h1 {
+  font-size: large;
+  margin-left: 1vh;
+  font-family: 'Bebas Neue Serif', serif;
+}
+.nft_partc .card6 p {
+  margin-left: 1vw;
+  font-family: 'Quicksand', sans-serif;
+  width: 17vw;
+}
+.nft_partc .card6 button {
+  width: 29vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 18vw;
+}
+.nft_partc .card7 {
+  display: block;
+  width: 66vw;
+  height: 64vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-left: 9vw;
+}
+.nft_partc .card7 img {
+  width: 66vw;
+}
+.nft_partc .card7 h1 {
+  font-size: large;
+  margin-left: 1vh;
+  font-family: 'Bebas Neue Serif', serif;
+}
+.nft_partc .card7 p {
+  margin-left: 1vw;
+  font-family: 'Quicksand', sans-serif;
+  width: 17vw;
+}
+.nft_partc .card7 button {
+  width: 29vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 18vw;
+}
+.nft_partc .card8 {
+  display: block;
+  width: 66vw;
+  height: 64vh;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-left: 9vw;
+}
+.nft_partc .card8 img {
+  width: 66vw;
+}
+.nft_partc .card8 h1 {
+  font-size: large;
+  margin-left: 1vh;
+  font-family: 'Bebas Neue Serif', serif;
+}
+.nft_partc .card8 p {
+  margin-left: 1vw;
+  font-family: 'Quicksand', sans-serif;
+  width: 17vw;
+}
+.nft_partc .card8 button {
+  width: 29vw;
+  height: 6vh;
+  background-color: rgb(255, 105, 140);
+  border: none;
+  border-radius: 5px;
+  margin-left: 18vw;
+}
+.middle-section .our-sellers {
+  width: 22vw;
+  height: 9vh;
+  background-color: #000;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+  padding-top: 3vh;
+  padding-right: 1vw;
+}
+.middle-section {
+  display: flex;
+  position: relative;
+  height: 59vh;
+  background-color: #fd4848;
+}
+.middle-section .our-sellers {
+  width: 22vw;
+  height: 9vh;
+  background-color: #000;
+  position: absolute;
+  left: 0px;
+  top: 142px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+  padding-top: 3vh;
+  padding-right: 1vw;
+}
+.our-sellers-a {
+  width: 34vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 73px;
+  left: 127px;
+  text-align: center;
+  padding-top: 2vh;
+  display: flex;
+
+}
+.our-sellers-b {
+  width: 34vw;
+  height: 8vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 145px;
+  left: 127px;
+  padding: 1.5vh 1vw 1.5vh 6vw;
+}
+.our-sellers-c {
+  width: 34vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 210px;
+  left: 127px;
+}
+.ending-section {
+  display: flex;
+  background-color: #eca1a1;
+  height: 64vh;
+  margin-top: 20vh;
+  position: relative;
+}
+.ending-section-a {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 5vw;
+  line-height: 5vh;
+  position: absolute;
+  left: 40px;
+  text-align: left;
+  bottom: 241px;
+}
+.ending-section-b {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+  position: absolute;
+  bottom: 241px;
+  left: 178px;
+}
+.ending-section-c {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+  position: absolute;
+  left: 47px;
+  top: 16px;
+}
+.ending-section-d {
+  display: block;
+  margin-top: 18vh;
+  margin-left: 3vw;
+  line-height: 5vh;
+  position: absolute;
+  left: 178px;
+  top: 17px;
+}
+.ending-section-e {
+  display: block;
+  margin-top: 19vh;
+  height: 15vh;
+  margin-left: 15vw;
+  line-height: 5vh;
+  border-left: none;
+  position: absolute;
+  top: 124px;
+  width: 67vw;
+  text-align: justify;
+}
+.email span {
+  position: absolute;
+  left: 60vw;
+  color: #000;
+  top: -1vh;
+}
+.footer .copyright p {
+  color: #fff;
+  position: absolute;
+  top: 5vh;
+  left: 16vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .privacy_policy p {
+  color: #fff;
+  position: absolute;
+  top: 9vh;
+  left: 34vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .terms_and_conditions p {
+  color: #fff;
+  position: absolute;
+  top: 13vh;
+  left: 29vw;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer .icons {
+  position: absolute;
+  display: flex;
+  gap: 1vw;
+  right: 36vw;
+  top: 20vh;
+  left: 108px;
+}
+
+}
+
+
+
+
+
+
+
+
